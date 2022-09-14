@@ -1,0 +1,73 @@
+body {
+    background-image: url(/assets/chair-hoochee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#a8c56b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selfie{
+    object-fit: contain;
+    width:300px;
+    height:auto;
+    padding: right 10%;
+}
+
+.example{
+    object-fit: contain;
+    width:auto;
+    height: 150px;
+}
+
+p {
+    border-left: 5px #AFD2C1 solid;
+}
+
+h4{
+    border:#AFD2C1 5px solid;
+}
+
+.nav {
+   background-color: #738201;
+   border:3px #AFD2C1 solid;
+   padding: 5px;
+   color:#E0ECD4; 
+   display:flex;
+   justify-content: flex-end;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav a:hover {
+    background-color: #a8c56b;
+    color:#F4F9D2;
+}
+
+.div {
+   width: 100px;
+   height: auto;
+   padding: 10px;
+}
+
+.title {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+    color: #AFD2C1;
+    width: 75%;
+    background-color: #738201;
+    border: #AFD2C1 8px  solid;
+}
+
+.article {
+    background-color: #738201;
+    color:#AFD2C1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
+}
+
+.footer {
+    color:#AFD2C1;
+    font-size: smaller;
+    display:flex;
+    justify-content: center;
+    background-color: #738201;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
