@@ -1,3 +1,7 @@
+*{
+    padding: 3%;
+}
+
 body {
     background-image: url(/assets/chair-hoochee.jpg);
     background-position: center;
